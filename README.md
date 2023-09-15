@@ -27,7 +27,7 @@
 
 # 📖 About the Project <a name="about-project"></a>
 
-**matrix** is a single-page application built with React and Redux. It allows users to explore anime categories, view numeric values based on selected categories, and access detailed information about specific anime titles.
+**matrix** is a project that shows each country and its entire details. And this is a valuable resource for anyone interested in learning more about the world. It would be a comprehensive, easy-to-use, and visually appealing resource that would provide users with the information they need to learn about different countries and cultures.
 
 ## 🛠️ Built With <a name="built-with"></a>
 
@@ -66,7 +66,7 @@
 ## 🚀 Demo <a name="live-demo"></a>
 
 - [🔗 Live Demo Link](https://Young-Gaius.github.io/matrix/)
-- [🔗 Presentation link]()
+- [🔗 Presentation link](https://www.loom.com/share/acb6e5ab816b4769843d891526e5c6d3?sid=99247d85-5a55-4c4f-b4e9-4bce90a47e49)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
