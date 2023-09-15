@@ -65,7 +65,7 @@
 
 ## 🚀 Demo <a name="live-demo"></a>
 
-- [🔗 Live Demo Link](https://Young-Gaius.github.io/matrix/)
+- [🔗 Live Demo Link](https://young-gaius.github.io/matrix/)
 - [🔗 Presentation link](https://www.loom.com/share/acb6e5ab816b4769843d891526e5c6d3?sid=99247d85-5a55-4c4f-b4e9-4bce90a47e49)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -174,7 +174,6 @@ If you like this project, give it a ⭐️.
 I would like to thank Microverse for providing guidance and support during the development of this project. The design inspiration for this project is based on the work by Nelson Sakwa on Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 
