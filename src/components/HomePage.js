@@ -31,27 +31,26 @@ const HomePage = () => {
           <li>No country data available.</li>
         ) : (
           countryData.map((country) => (
-            <li
-              key={country.alpha3Code}
-              className="relative odd:bg-sky-700 even:bg-sky-600 text-white"
-            >
-              <img src={country.flags.png} alt={`${country.name} flag`} className="w-64 md:w-72" />
-              <div className="p-2 flex flex-col items-end">
-                <Link to={`/details/${country.alpha3Code}`} className="absolute top-2 left-38 p-2 font-bold bg-white text-sky-600 rounded-full hover:bg-sky-600 hover:text-white">
-                  <FaArrowRightLong className="h-6 w-6" />
-                </Link>
-                <strong className="font-bold text-2xl uppercase">
-                  {country.name.slice(0, 10)}
-
-                </strong>
-                <p className="flex gap-1">
-                  Population:
-                  {' '}
-                  {country.population}
-                </p>
-              </div>
-
-            </li>
+            <Link to={`/details/${country.alpha3Code}`} key={country.alpha3Code}>
+              <li className="relative odd:bg-sky-700 even:bg-sky-600 text-white h-64">
+                <img src={country.flags.png} alt={`${country.name} flag`} className="w-64 md:w-72" />
+                <div className="p-2 flex flex-col items-end">
+                  <strong className="font-bold text-2xl uppercase">
+                    {country.name.slice(0, 10)}
+                  </strong>
+                  <p className="flex gap-1">
+                    Population:
+                    {' '}
+                    {country.population}
+                  </p>
+                  <div className="absolute top-2 left-38 p-2 bg-white rounded-full hover:bg-sky-600 hover:text-white">
+                    <Link to={`/details/${country.alpha3Code}`} className="font-bold text-sky-600">
+                      <FaArrowRightLong className="h-2 w-2 font-bold text-sky-600" />
+                    </Link>
+                  </div>
+                </div>
+              </li>
+            </Link>
           ))
         )}
       </ul>
